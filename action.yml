@@ -24,10 +24,6 @@ inputs:
   redis_password:
     description: 'RedisDB Password'
     required: false
-  
-  database_url:
-    description: 'The PostgreSQL url'
-    required: false
 
 runs:
   using: 'docker'
