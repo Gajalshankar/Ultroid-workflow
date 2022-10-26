@@ -8,7 +8,7 @@ void main(List<String> args) async {
       '-L',
       '-o',
       'ultroid',
-      'https://github.com/BLUE-DEVIL1134/UltroidCli/releases/download/1.0.6/ultroid-linux',
+      'https://github.com/BLUE-DEVIL1134/UltroidCli/releases/download/1.0.7/ultroid-linux',
     ],
     runInShell: true,
     workingDirectory: './',
