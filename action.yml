@@ -1,0 +1,34 @@
+name: '@teamultroid/ultroidworkflow'
+description: 'GitHub Action to run Ultroid on Github'
+author: 'Akash Pattnaik'
+branding:
+  icon: user-check
+  color: gray-dark
+inputs:
+  api_id:
+    description: 'Telegram API_ID of your account'
+    required: true
+
+  api_hash:
+    description: 'Telegram API_HASH of your account'
+    required: true
+
+  session:
+    description: 'Telegram session string'
+    required: true
+
+  redis_uri:
+    description: 'RedisDB URI'
+    required: false
+
+  redis_password:
+    description: 'RedisDB Password'
+    required: false
+  
+  database_url:
+    description: 'The PostgreSQL url'
+    required: false
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
