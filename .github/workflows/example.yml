@@ -14,7 +14,7 @@ env:
   session: '1BVtsOGkBu8abSNMDmfO5P76ogDWavESCeUxyuXs77QvS_mUFLAxedKJKN-WjPcnWV-woaFuRsFg0IXIJNQolF_2rOwA9MMKyRdGibq3FOZyb-YvtTy1SwocwNC0vvLjytQOV2bRE-xeAfNHj_STMbMOIhg6YV7mmTmCq4JrImQn7la__FnYHDS4GvT-gnn4iAG_FZXjumx3H9AuU8FXrerfIoLb2-UvwBSdkcJU2B4MVMb-u1Qo2D0Kpuxs5phA2adSTaggkkmLdvJSInAD-nSAqhZJsHQL9LAyq-DuB61aham_jBMAmFBjP5vyWXCNdVid3d7yBSq4M4pO2JCXGvd7sRE7DTVM='
   redis_uri: 'redis-15934.c90.us-east-1-3.ec2.cloud.redislabs.com:15934'
   redis_password: 'aHm2cjamkuLnb8vB70jzQSbOl609o2vi'
-  database_url: ${{ secrets.database_url }}
+#   database_url: ${{ secrets.database_url }}
 
 jobs:
   run:
