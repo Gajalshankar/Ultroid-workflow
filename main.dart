@@ -70,7 +70,7 @@ void main(List<String> args) async {
   Process.start(
     './ultroid',
     [
-      'heroku',
+      'run',
     ],
     runInShell: true,
     workingDirectory: './',
