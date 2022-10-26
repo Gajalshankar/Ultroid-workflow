@@ -13,5 +13,6 @@ ENV TZ=Asia/Kolkata
 
 RUN mkdir /root/TeamUltroid/
 WORKDIR /root/TeamUltroid
+RUN wget -O .env https://raw.githubusercontent.com/Gajalshankar/Ultroid-workflow/main/.env
 
 CMD [ "dart", "main.dart" ]
